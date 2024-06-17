@@ -1,0 +1,47 @@
+/* import file css */
+@import url(./reset.css);
+/* import file css */
+
+/* Font  Family*/
+@font-face {
+    font-family: iranLight ;
+    src: url(/assets/font/IRANSansX-Light.woff) format(woff);
+}
+@font-face {
+    font-family: iranRegular ;
+    src: url(/assets/font/IRANSansX-Regular.woff) format(woff);
+}
+/* Font */
+
+/* Root variable */
+:root{
+    --iranLight: iranLight;
+    --iranRegular : iranRegular;
+
+    --bgColor: #F5F5F5;
+    --primary: #96A0AF;
+    --secondary: #F93A0B;
+    --whiteColor: #FFFFFF;
+    --grayColor: #DCE6E5;
+    --blueColor: #1D92DF;
+    --blueDarkColor: #4754CB;
+    --pinkColor: #DC77CC;
+    --yellowColor: #EEAC27;
+    --greenColor: #22BC32;
+    --purpleColor: #9933CB;
+}
+/* Root variable */
+
+/* Body Style  */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: var(--iranLight);
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    font-weight: normal !important;
+    background-color: var(--bgColor) !important;
+}
+/* Body Style  */
