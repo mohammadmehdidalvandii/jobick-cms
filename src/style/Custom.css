@@ -45,3 +45,18 @@ body{
     background-color: var(--bgColor) !important;
 }
 /* Body Style  */
+
+
+/* app style */
+.app_Wrapper{
+    display: block;
+    width: 100%;
+}
+.app_navbar{
+    width: 100%;
+}
+.app_side{
+    width: 15%;
+    background-color: var(--whiteColor);
+}
+/* app style */

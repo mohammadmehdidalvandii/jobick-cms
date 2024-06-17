@@ -1,0 +1,66 @@
+.navbar{
+    display: block;
+    width: 100%;
+    background-color: var(--whiteColor);
+}
+.navbar_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.2rem;
+}
+.navbar_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar_logo{
+    display: block;
+    text-align: center;
+}
+.navbar_logo_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.navbar_logo_text{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+.navbar_searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    background-color: var(--grayColor);
+}
+.navbar_searchBox_input{
+    outline: none;
+    border: none;
+    background-color: unset;
+    padding-right: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.navbar_searchBox_icon{
+    display: flex;
+    align-items: center;
+    padding-left: 0.2rem;
+    cursor: pointer;
+}
+
+.navbar_addJob{
+    display: block;
+    margin-right: 1rem;
+}
+.navbar_addJob_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--grayColor);
+    color: var(--blueDarkColor);
+    border-radius: 0.3rem;
+}
