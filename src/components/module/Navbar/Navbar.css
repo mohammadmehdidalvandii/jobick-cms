@@ -64,3 +64,51 @@
     color: var(--blueDarkColor);
     border-radius: 0.3rem;
 }
+.navbar_item_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar_theme{
+    display: block;
+}
+.navbar_theme_icon{
+    font-size: 1.3rem;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.navbar_theme_icon:hover{
+    color: var(--secondary);
+}
+.navbar_message{
+    display: block;
+}
+.navbar_message_icon{
+    font-size: 1.3rem;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.navbar_message_icon:hover{
+    color: var(--secondary);
+}
+.navbar_setting{
+    display: block;
+}
+.navbar_setting_icon{
+    font-size: 1.3rem;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.navbar_setting_icon:hover{
+    color: var(--secondary);
+}
+.navbar_profile{
+    display: block;
+}
+.navbar_profile_img{
+    width: 50px;
+    border-radius: 0.2rem;
+}
