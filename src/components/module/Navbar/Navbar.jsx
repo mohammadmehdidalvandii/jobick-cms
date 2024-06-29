@@ -1,11 +1,27 @@
+import { useState } from 'react';
 import './Navbar.css';
 import { FaSearch , FaPlus , FaMoon  } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 import { MdSettings } from "react-icons/md";
+import AddJob from '../../template/navbar/AddJob/AddJob';
 
 
 function Navbar() {
-  return (
+    const [addJob , setAddJob] = useState(false);
+
+    const hanlderShowAddJob = ()=>{
+        setAddJob(!addJob);
+    }
+    const handlerClose = ()=>{
+        setAddJob(false);
+    }
+    window.addEventListener("keydown" ,(event)=>{
+            if(event.key === 'Escape'){
+                setAddJob(false);
+            }
+    })
+
+    return (
     <section className="navbar">
         <div className="navbar_wrapper">
             <div className="navbar_item">
@@ -22,9 +38,10 @@ function Navbar() {
                     </span>
                 </div>
                 <div className="navbar_addJob">
-                    <span className="navbar_addJob_icon">
+                    <span className="navbar_addJob_icon" onClick={hanlderShowAddJob}>
                         <FaPlus/>
                     </span>
+                    {addJob && ( <AddJob handlerClose={handlerClose}/>)}
                 </div>
             </div>
             <div className="navbar_item">

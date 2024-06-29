@@ -1,0 +1,94 @@
+
+.addJob{
+    display: block;
+    position: fixed;
+    overflow-y: scroll;
+    top: 6rem;
+    left: 25%;
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    background-color: var(--whiteColor);
+    box-shadow:  0 0 10px 5px var(--grayColor);
+    border-radius: 0.6rem;
+    padding: 1rem;
+}
+.addJob_title{
+    display: block;
+    font-family: var(iranRegular) !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--grayColor);
+    margin-bottom: 1rem;
+}
+.addJob_wrapper{
+    display: flex;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    gap: 20px;
+}
+.addJobBox{
+    display: block;
+    width: 100%;
+}
+.addJobBox_text{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--secondary);
+}
+.addJobBox_input{
+    display: block;
+    margin-top: 0.6rem;
+    height: 2rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--grayColor);
+    border-radius: 0.4rem;
+    padding-right: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.addJobBox_inputText{
+    display: block;
+    margin-top: 0.6rem;
+    height: 7rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--grayColor);
+    border-radius: 0.4rem;
+    padding-right: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.addJob_Buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.addJob_Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 2rem;
+    margin: 1rem 0;
+    outline: none;
+    border: none;
+    border: 1px solid var(--secondary);
+    border-radius: 0.5rem;
+    background-color: var(--secondary);
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--whiteColor);
+    transition: all 0.4s ease-out;
+}
+.addJob_Btn:hover{
+    background-color: var(--whiteColor);
+    color: var(--secondary);
+}
