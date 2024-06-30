@@ -57,7 +57,6 @@ body{
 }
 .app_side{
     width: 15%;
-    background-color: var(--whiteColor);
 }
 /* app style */
 
@@ -77,4 +76,20 @@ body{
 }
 .dark_mode .navbar_addJob_icon{
     background-color: #17171E;
+}
+.dark_mode .sidebar{
+    background-color: #212130;
+}
+.dark_mode .sidebar_profile{
+    background-color: #17171E;
+}
+.dark_mode .sidebar_item_link{
+    background-color: #17171E;
+}
+.dark_mode .sidebar_item_link_active{
+    background-color: #17171E;
+}
+.dark_mode .sidebar_item_btnExit{
+    background-color: #17171E;
+    color: var(--whiteColor);
 }

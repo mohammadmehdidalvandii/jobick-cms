@@ -1,4 +1,5 @@
 import Navbar from "./components/module/Navbar/Navbar"
+import Sidebar from "./components/module/Sidebar/Sidebar"
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
          <Navbar/>
       </div>
       <div className="app_side">
-          sidebar
+          <Sidebar/>
       </div>
     </div>
     </>
