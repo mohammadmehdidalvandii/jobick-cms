@@ -60,3 +60,21 @@ body{
     background-color: var(--whiteColor);
 }
 /* app style */
+
+
+
+/* all DarkMode style  */
+.dark_mode{
+    background-color: #17171E !important;
+    color: var(--whiteColor) !important;
+}
+
+.dark_mode .navbar {
+    background-color: #212130;
+}
+.dark_mode .navbar_searchBox{
+    background-color: #17171E;
+}
+.dark_mode .navbar_addJob_icon{
+    background-color: #17171E;
+}

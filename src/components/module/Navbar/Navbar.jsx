@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Navbar.css';
-import { FaSearch , FaPlus , FaMoon  } from "react-icons/fa";
+import { FaSearch , FaPlus , FaMoon , FaSun } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 import { MdSettings } from "react-icons/md";
 import AddJob from '../../template/navbar/AddJob/AddJob';
@@ -8,6 +8,7 @@ import AddJob from '../../template/navbar/AddJob/AddJob';
 
 function Navbar() {
     const [addJob , setAddJob] = useState(false);
+    const [isDarkMode , setIsDarkMode] = useState(false);
 
     const hanlderShowAddJob = ()=>{
         setAddJob(!addJob);
@@ -20,6 +21,11 @@ function Navbar() {
                 setAddJob(false);
             }
     })
+
+    const toggleDarkMode =()=>{
+        setIsDarkMode(!isDarkMode);
+        document.body.classList.toggle("dark_mode");
+    }
 
     return (
     <section className="navbar">
@@ -47,8 +53,12 @@ function Navbar() {
             <div className="navbar_item">
                 <div className="navbar_item_wrapper">
                 <div className="navbar_theme">
-                    <span className="navbar_theme_icon">
-                        <FaMoon/>
+                    <span className="navbar_theme_icon" onClick={toggleDarkMode}>
+                        {isDarkMode ? (
+                            <FaSun/>
+                        ):(
+                            <FaMoon/>
+                        )}
                     </span>
                 </div>
                 <div className="navbar_message">
