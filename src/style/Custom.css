@@ -58,12 +58,20 @@ body{
     width: 15%;
 }
 .app_site{
-    display: block;
-    padding: 1rem 1.5rem;
-    width:100%;
+    margin: 1.5rem 0;
+    max-width: 100%;
 }
 /* app style */
 
+/* box_wrapper */
+.box_wrapper{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--whiteColor);
+    border-radius: 0.5rem;
+}
+/* box_wrapper */
 
 
 /* all DarkMode style  */
@@ -96,4 +104,7 @@ body{
 .dark_mode .sidebar_item_btnExit{
     background-color: #17171E;
     color: var(--whiteColor);
+}
+.dark_mode .box_wrapper{
+    background-color: #212130;
 }

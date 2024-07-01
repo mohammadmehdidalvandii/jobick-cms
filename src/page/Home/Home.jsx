@@ -2,7 +2,11 @@
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <div className="box_wrapper">
+        this is home box
+      </div>
+    </div>
   )
 }
 
