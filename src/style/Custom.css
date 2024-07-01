@@ -48,15 +48,19 @@ body{
 
 
 /* app style */
-.app_Wrapper{
-    display: block;
-    width: 100%;
-}
 .app_navbar{
     width: 100%;
 }
+.app_Wrapper{
+    display: flex;
+}
 .app_side{
     width: 15%;
+}
+.app_site{
+    display: block;
+    padding: 1rem 1.5rem;
+    width:100%;
 }
 /* app style */
 
