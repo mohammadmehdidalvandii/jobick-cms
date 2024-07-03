@@ -5,7 +5,8 @@
     background-color: var(--whiteColor);
 }
 .navbar_wrapper{
-    display: flex;
+    display: flex !important;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1.2rem;
