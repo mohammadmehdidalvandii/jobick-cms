@@ -1,4 +1,5 @@
 import Items from "../../components/template/home/Items/Items"
+import Profiles from "../../components/template/home/Profiles/Profiles"
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="box_wrapper">
+                <Profiles/>
               </div>
           </div>
        </div>

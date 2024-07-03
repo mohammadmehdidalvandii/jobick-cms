@@ -1,0 +1,103 @@
+.profile{
+    display: block;
+    width: 100%;
+}
+.profile_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile_user{
+    display: flex;
+}
+.profile_image{
+    margin-left: 1rem;
+    width: 150px;
+    border-radius: 0.5rem;
+}
+.profile_content{
+    display: block;
+}
+.profile_username{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--blackColor);
+}
+.profile_jobName{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin-top: 1rem;
+}
+.profile_city{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+.profile_link_edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 150px;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--secondary);
+    border-radius: 0.5rem;
+    background-color: var(--secondary);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--whiteColor);
+    transition: all 0.4s ease-out;
+}
+.profile_link_edit:hover{
+    background-color: unset;
+    color: var(--blackColor);
+}
+.profile_skills{
+    display: block;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.profile_skill_title{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--blackColor);
+}
+.profile_skill{
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+}
+.profile_skill_progress{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.skill_progress_bg{
+    display: block;
+    width: 100%;
+    height: 0.3rem;
+    border-radius: 1rem;
+    background-color: var(--grayColor);
+}
+.skill_progress{
+    display: block;
+    position: absolute ;
+    bottom: 0   ;
+    width: 90%;
+    height: 0.3rem;
+    border-radius: 1rem;
+    background-color: var(--blueColor);
+}
+.skill_progress_name{
+    display: block;
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--blackColor);
+}
